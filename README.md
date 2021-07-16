@@ -3,11 +3,11 @@
 # Desafio
 Criar um sistema de e-commerce para cadastro de email na landing para recebimento de novidades e promoções.
 
-#Entrega 
+# Entrega 
 - Site Oficial / Landing page
 
 
-#Entregáveis: 
+# Entregáveis: 
 
 -Template do site oficial 
 
