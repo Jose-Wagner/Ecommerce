@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+html{
+
+    --cor-header: #FFC107;
+    --cor1: #343A40;
+    --font-padrao: 'Montserrat', sans-serif;
+    --font-distaque:'Roboto', sans-serif;
+
+    font-size: 62.5%;
+}
+
+
+
+#black-friday {
+    width: 7rem;
+    height: 7rem;
+    margin-left: 13rem;
+}
+
+.header {
+    width: 100%;
+    height: 7.1rem;
+    background-color: var(--cor-header);
+}
+
+#divbusca {
+    position: absolute;
+    background-color: white;
+    top: 1.2rem;
+    border-radius: 2rem;
+    left: 23%;
+    height: 4.4rem;
+    width: 64.3rem;
+}
+
+#txtbusca {
+    float: left;
+    background-color: transparent;
+    border: none;
+    padding-left: 2rem;
+    font-size: 1.8rem;
+    height: 4.4rem;
+    width: 56.2rem;
+    outline: none;
+}
+
+#btnbusca {
+    height: 3rem;
+    bottom: 0.6rem;
+    right: 1rem;
+    position: absolute;
+}
+
+.entra {
+    display: flex;
+    top: 2.6rem;
+    left: 100rem;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+
+.entra p {
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    font-family: var(--font-distaque);
+}
+
+.carrinho {
+    display: flex;
+    top: 2.6rem;
+    left: 110rem;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+
+.carrinho p {
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    font-family: var(--font-distaque);
+}
+
+.produto {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto1 {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.produto2 {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;  
+}
+
+.produto3 {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;  
+}
+
+.imgProduct:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nameProduct {
+    text-align: center;
+    font-family: var(--font-distaque);
+    font-weight: lighter;
+    font-size: 2rem;   
+    margin-top: 2rem;
+}
+
+.price {
+    text-align: center;
+    font-family: var(--font-padrao);
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+#form {
+    text-align: center;
+    outline-style: none;
+    border-style: none;
+}
+
+.name {
+    margin-bottom: 0.8rem;
+}
+
+#nome {
+    height: 2.5rem;
+    width: 36rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+    border-style: none;
+}
+
+#email {
+    height: 2.5rem;
+    width: 36rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+    border-style: none; 
+}
+
+#btn {
+    width: 25rem;
+    height: 4rem;
+    margin-top: 2rem;
+    background: var(--cor1);
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: var(--font-padrao);
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 3px black;
+}
+
+h2 {
+    font-family: var(--font-padrao);
+    text-transform: uppercase;
+    margin-left: 5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-family: var(--font-padrao);
+    margin-top: 5rem;
+}

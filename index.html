@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Landing page</title>
 </head>
 <body>
-    
+    <div class="conterne">
+        <header>
+            <div class="header">
+                <img src="src/img/black-friday.png" alt="black-friday" id="black-friday">
+                <div id="divbusca">
+                    <input type="text" id="txtbusca" placeholder="Buscar...">
+                    <a href="#"><img src="src/img/VectorBusca.png" alt="busca" id="btnbusca"></a>
+                </div>
+                <div class="entra">
+                    <a href="#"><p>Entrar</p></a>
+                    <a href="#"><img src="src/img/VectorEntra.png" alt="Entra"></a>
+                </div>
+                <div class="carrinho">
+                    <a href="#"><p>Carrinho</p></a></a>
+                    <a href="#"><img src="src/img/VectorCarrinho.png" alt="carrinho-compra"></a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="produto">
+                    <div class="produto1">
+                        <img src="src/img/produto-iphone.png" alt="iphone" class="imgProduct">
+                        <p class="nameProduct">iPhone</p>
+                        <span class="price">R$ 1.000</span>
+                    </div>
+                    <div class="produto2">
+                        <img src="src/img/produto-monitor.png" alt="monitor" class="imgProduct">
+                        <p class="nameProduct">Monitor</p>
+                        <span class="price">R$ 400</span>
+                    </div>
+                    <div class="produto3">
+                        <img src="src/img/produto-tablet.jpg" alt="tablet" class="imgProduct">
+                        <p class="nameProduct">Tablet</p>
+                        <span class="price">R$ 200</span>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <form id="form">
+            <h2>Cadastre seu e-mail para receber promoções</h2>
+            <div class="name">
+                <label for="Nome"></label>
+                <input type="text" id="nome" placeholder="Digite seu nome" autocomplete="off">
+            </div>
+            <div class="email">
+                <label for="Email"></label>
+                <input type="email" id="email" placeholder="Digite seu email" autocomplete="off">
+            </div>
+            <button type="submit" id="btn">Cadastrar</button> 
+        </form>
+        <footer>
+            <p>Black Friday 2021</p>
+        </footer>
+    </div>
 </body>
+    <script src="src/script/script.js"></script>
 </html>
