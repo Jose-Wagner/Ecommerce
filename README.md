@@ -1,4 +1,4 @@
-# Ecommerce - Como colocar um loja online? Site Oficial / Landing page
+# Ecommerce - Como colocar um loja online
 
 # Desafio
 Criar um sistema de e-commerce para cadastro de email na landing para recebimento de novidades e promoções.
