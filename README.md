@@ -4,7 +4,8 @@
 Criar um sistema de e-commerce para cadastro de email na landing para recebimento de novidades e promoções.
 
 # Entrega 
-- Site Oficial / Landing 
+- Site Oficial / Landing
+-  
 • Hospedado no netlify: 
 
 # Entregáveis: 
