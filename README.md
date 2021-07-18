@@ -6,7 +6,7 @@ Criar um sistema de e-commerce para cadastro de email na landing para recebiment
 # Entrega 
 • Site Oficial / Landing
   
-• Hospedado no netlify: 
+• Hospedado no netlify: https://dazzling-raman-d53d79.netlify.app/
 
 # Entregáveis: 
 
